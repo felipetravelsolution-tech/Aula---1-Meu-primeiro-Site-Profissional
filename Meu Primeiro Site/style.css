@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #efefef;
+    color: #222;
+}
+
+/*TOPO*/
+.hero-header{
+    position: relative;
+    background-color: #fcfaeb;
+    min-height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-button{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    background-color: none;
+    border: none;
+    font-size: 2rem;
+    color: #bdbdbd;
+    cursor: pointer;
+}
+.hero-content{
+    text-align: center;
+}
+.hero-content h1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: #111;
+    margin-bottom: 25px;
+}
+.subtitle{
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
